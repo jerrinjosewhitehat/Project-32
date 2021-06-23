@@ -106,7 +106,7 @@ async function getBackgroundImage(){
   var datetime= responseJSON.datetime;
   console.log(datetime);
 
-  var time= datetime.slice(11,13);
+  var time=4// datetime.slice(11,13);
   console.log(time);
 
   if(time>4 && time<7){
